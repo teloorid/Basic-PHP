@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP Tutorial</title>
+    <script src="bootstrap/js/jquery-3.4.0.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/Custom.css">
+
+</head>
+<body>
+<h3><a href="">PHP Tutorial</a></h3>
+<button type="button" onclick="alert ('Hello World')"> Click Me</button>
+<form class="form-inline" action="/action_page.php">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+    <div class="form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Remember me
+        </label>
+        <form class="form-inline" action="/action_page.php">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<div class="form-check">
+    <label class="form-check-label">
+        <input type="checkbox" class="form-check-input" value="">Option 1
+    </label>
+</div>
+<div class="form-check">
+    <label class="form-check-label">
+        <input type="checkbox" class="form-check-input" value="">Option 2
+    </label>
+</div>
+<div class="form-check disabled">
+    <label class="form-check-label">
+        <input type="checkbox" class="form-check-input" value="" disabled>Option 3
+    </label>
+</div>
+</body>
+</html>
